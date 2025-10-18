@@ -1,0 +1,14 @@
+C:\projetos\TaxSystem\TaxSystem\bin\Debug\net8.0\TaxSystem.exe
+C:\projetos\TaxSystem\TaxSystem\bin\Debug\net8.0\TaxSystem.deps.json
+C:\projetos\TaxSystem\TaxSystem\bin\Debug\net8.0\TaxSystem.runtimeconfig.json
+C:\projetos\TaxSystem\TaxSystem\bin\Debug\net8.0\TaxSystem.dll
+C:\projetos\TaxSystem\TaxSystem\bin\Debug\net8.0\TaxSystem.pdb
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.AssemblyInfoInputs.cache
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.AssemblyInfo.cs
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.csproj.CoreCompileInputs.cache
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.dll
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\refint\TaxSystem.dll
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.pdb
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\TaxSystem.genruntimeconfig.cache
+C:\projetos\TaxSystem\TaxSystem\obj\Debug\net8.0\ref\TaxSystem.dll
