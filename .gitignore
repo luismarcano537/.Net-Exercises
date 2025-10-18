@@ -1,0 +1,19 @@
+# Ignora pastas de compilação
+[Bb]in/
+[Oo]bj/
+
+# Pastas de configuração do Visual Studio e IDEs
+.vs/
+.vscode/
+
+# Arquivos de usuário e temporários
+*.user
+*.suo
+*.pdb
+*.log
+*.dll
+*.exe
+
+# Arquivos de packages e cache
+**/packages/
+**/node_modules/
