@@ -14,7 +14,7 @@ namespace MyApp
             Console.Write("Enter the full file path: ");
             string path = Console.ReadLine();
             Console.Write("Enter Salary: ");
-            double LimitSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double limitSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             List<Employee> Employees = new List<Employee>();
 
@@ -32,17 +32,17 @@ namespace MyApp
                     }
                 }
 
-                var emails = Employees.Where(E => E.Salary > LimitSalary).OrderBy(E => E.Name).Select(E => E.Email).ToList();
+                var emails = Employees.Where(E => E.Salary > limitSalary).OrderBy(E => E.Name).Select(E => E.Email).ToList();
 
-                var AllSallary = Employees.Where(E => E.Name[0] == 'M').Sum(E => E.Salary);
+                var AllSalary = Employees.Where(E => E.Name[0] == 'M').Sum(E => E.Salary);
 
-                Console.WriteLine("\nEmail of people whose salarry is more than 2000.00: ");
+                Console.WriteLine($"\nEmail of people whose salarry is more than {limitSalary}: ");
                 foreach (var em in emails)
                 {
                     Console.WriteLine(em);
                 }
 
-                Console.WriteLine("\nSum of salary of peoples whose name starts with 'm': " + AllSallary.ToString("F2", CultureInfo.InvariantCulture));
+                Console.WriteLine("\nSum of salary of peoples whose name starts with 'm': " + AllSalary.ToString("F2", CultureInfo.InvariantCulture));
             }
             catch (IOException e) {
 
