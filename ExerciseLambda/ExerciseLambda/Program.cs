@@ -23,7 +23,7 @@ namespace MyApp
                 {
                     string[] fields = Sr.ReadLine().Split(',');
                     string name = fields[0];
-                    double price = double.Parse(fields[1]);
+                    double price = double.Parse(fields[1], CultureInfo.InvariantCulture);
 
                     list.Add(new Product(name, price));
                 }
